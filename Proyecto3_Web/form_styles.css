@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts\\Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+    src: url('fonts\\Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 105%;
+}
+
+
+.airline-name {
+    background-color: #608cff;
+    color: #fff;
+    padding: 34px 38px;
+    font: 400 32px 'Montserrat', sans-serif;
+    width: 99%;
+}
+
+.passenger-info {
+    margin: 60px;
+    padding: 0 65px;
+    width: 80%;
+
+}
+
+
+
+.passenger-type {
+    color: #000;
+    text-align: center;
+    font: 400 28px/120% 'Montserrat', sans-serif;
+}
+
+.divider {
+    background-color: #adadad;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 1px;
+}
+
+.section-title {
+    color: #000;
+    margin-top: 32px;
+    font: 400 20px/140% 'Montserrat', sans-serif;
+}
+
+.form-row {
+    display: flex;
+    margin-top: 35px;
+    gap: 30px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 120%;
+    
+}
+.servicios_vuelo{
+    width: 100%;
+    justify-content: space-around;
+}
+#preferencias{
+    width: 70%;
+    margin-right: 30px;
+
+}
+
+#DatosContacto{
+    width: 100%;
+    
+}
+
+#correo{
+    width: 50px;
+    border: none;
+}
+
+.form-buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+.form-continuar{
+    border-radius: 10px;
+    color: white;
+    width: 500px;
+    height: 50px;
+    background-color: rgb(17, 179, 17);
+}
+
+.form-regresar{
+    border-radius: 10px;
+    color: white;
+
+    width: 500px;
+    height: 50px;
+    background-color: rgb(218, 30, 30);
+}
+
+
+#Nacionalidad{
+    margin-top: 30px;
+    width: 18%;
+}
+
+#Numeroo{
+    width: 22%;
+}
+
+.form-label {
+    color: var(--sds-color-text-default-default);
+    font: 400 16px/140% 'Montserrat', sans-serif;
+    margin-bottom: 2px;
+}
+
+.form-input {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid rgba(56, 56, 56, 1);
+    background-color: var(--sds-color-background-default-default);
+    margin-top: 8px;
+    color: var(--sds-color-text-default-tertiary);
+    padding: 12px ;
+
+}
+#paisResidencia{
+    width: 80%;
+    margin-right: 0px;
+}
+
+#DatosContacto .form-input{
+    width: 70%;
+}
+
+#correo{width: 120%;}
+
+.form-select {
+    align-items: flex-end;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(56, 56, 56, 1);
+    background-color: var(--sds-color-background-default-default);
+    display: flex;
+    margin-top: 8px;
+    padding: 12px;
+    width: 120%;
+}
+
+#PaisResidencia{
+    margin-right: 5px
+
+}
+
+.select-icon {
+    aspect-ratio: 1;
+    width: 16px;
+}
+
+@media (max-width: 991px) {
+    .airline-name {
+    padding: 0 20px;
+    }
+
+    .passenger-info {
+    margin-top: 40px;
+    padding: 0 20px;
+    }
+
+    .form-row {
+    flex-wrap: wrap;
+    }
+
+    .form-input,
+    .form-select {
+    width: 100%;
+    }
+}
+
+.pais_emision {
+    width: 80%;
+}
+
+.form_viaje {
+    gap: 80px;
+}
+
+#asistencia_vuelo {
+    width: 70%;
+    row-gap: 10px;
+}
+
+#comida {
+    width: 120%;
+}
+
+.posicion {
+    display: inline;
+}
+
+.bloque-contenedor {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+}
+
+.boton {
+    width: 100%;
+    height: 200%;
+    border-radius: 10px;
+}
+
+.pago {
+    width: 130%;
+}
